@@ -1,0 +1,17 @@
+//
+//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import Foundation
+
+final class {{ module_info.name }}ViewModel: {{ module_info.name }}ViewModelInput, Routable {
+    weak var view: {{ module_info.name }}ViewModelOutput?
+    var router: {{ module_info.name }}Router?
+
+    enum Routes {
+    }
+}

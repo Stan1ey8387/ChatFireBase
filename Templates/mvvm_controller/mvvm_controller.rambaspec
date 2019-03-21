@@ -1,0 +1,23 @@
+# Template information section
+name: "mvvm_controller"
+summary: "MVVM module"
+author: "Zakhar Babkin"
+version: "1.0"
+license: "MIT"
+
+# The declarations for code files
+code_files:
+
+# View layer
+- {name: View/ViewController.swift, path: Code/View/viewcontroller.swift.liquid}
+
+# ViewModel layer
+- {name: ViewModel/ViewModel.swift, path: Code/ViewModel/viewModel.swift.liquid}
+- {name: ViewModel/ViewModelInput.swift, path: Code/ViewModel/viewModel_input.swift.liquid}
+- {name: ViewModel/ViewModelOutput.swift, path: Code/ViewModel/viewModel_output.swift.liquid}
+
+# Router layer
+- {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
+
+# Builder layer
+- {name: Builder/Builder.swift, path: Code/Builder/builder.swift.liquid}
